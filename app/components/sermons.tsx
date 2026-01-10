@@ -9,7 +9,7 @@ export default function LatestSermon() {
     visible: { 
       opacity: 1, 
       y: 0, 
-      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } 
+      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1]as any} 
     }
   };
 
@@ -53,7 +53,7 @@ export default function LatestSermon() {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] as any }}
           className="relative group aspect-video md:aspect-[21/9] rounded-3xl overflow-hidden border border-white/10 shadow-2xl bg-[#00B0F0]/5"
         >
           {/* Video Thumbnail Placeholder */}
