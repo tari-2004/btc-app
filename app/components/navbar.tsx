@@ -54,24 +54,32 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6">
         
         {/* LOGO AREA */}
-        <Link href="/" onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setIsOpen(false); }}>
-          <motion.div 
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            className="flex items-center gap-3 cursor-pointer"
-          >
-            <div className="relative w-10 h-10 flex-shrink-0">
-              <img
-                src="/images/white-1.png"
-                alt="Sovereign Grace Logo"
-                className="w-full h-full object-contain"
-              />
-            </div>
-            <span className="text-lg sm:text-2xl font-serif font-bold tracking-tight text-[#00B0F0] whitespace-nowrap">
-              BelieversTribe<span className="text-white font-sans font-light">Church</span>
-            </span>
-          </motion.div>
-        </Link>
+<Link href="/" onClick={() => { window.scrollTo({ top: 0, behavior: "smooth" }); setIsOpen(false); }}>
+  <motion.div 
+    initial={{ opacity: 0, x: -20 }}
+    animate={{ opacity: 1, x: 0 }}
+    className="flex items-center gap-3 cursor-pointer group"
+  >
+    {/* Enlarged Logo Image Container */}
+    <div className="relative w-12 h-12 sm:w-16 sm:h-16 flex-shrink-0 transition-transform duration-300 group-hover:scale-110">
+      <img
+        src="/images/white-1.png"
+        alt="Sovereign Grace Logo"
+        className="w-full h-full object-contain"
+      />
+    </div>
+    
+    {/* Church Name */}
+    <div className="flex flex-col justify-center">
+      <span className="text-xl sm:text-2xl font-serif font-bold tracking-tight text-[#00B0F0] leading-tight whitespace-nowrap">
+        BelieversTribe
+      </span>
+      <span className="text-white font-sans font-light text-sm sm:text-base tracking-[0.1em] uppercase leading-tight">
+        Church
+      </span>
+    </div>
+  </motion.div>
+</Link>
 
         {/* DESKTOP NAV */}
         <div className="hidden lg:flex items-center gap-10">
