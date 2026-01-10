@@ -27,13 +27,17 @@ const PILLARS = [
 
 export default function AboutUs() {
   const fadeUp = {
-    hidden: { opacity: 0, y: 30 },
-    visible: { 
-      opacity: 1, 
-      y: 0, 
-      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } 
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      // Adding 'as any' fixes the Netlify build error
+      ease: [0.6, 0.05, -0.01, 0.9] as any 
     }
-  };
+  }
+};
 
   return (
     <section id="about" className="relative py-24 bg-black overflow-hidden">
