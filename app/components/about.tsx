@@ -34,7 +34,7 @@ export default function AboutUs() {
     transition: {
       duration: 0.6,
       // Adding 'as any' fixes the Netlify build error
-      ease: [0.6, 0.05, -0.01, 0.9] as any 
+      ease: [0.22, 1, 0.36, 1] as any 
     }
   }
 };

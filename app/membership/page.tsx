@@ -84,7 +84,7 @@ export default function MembershipPage() {
           </p>
 
           <motion.a
-            href="https://wa.me/yourphonenumber?text=Hello! I would like to register for the next Membership Class."
+            href="https://wa.me/09121729936?text=Hello! I would like to register for the next Membership Class."
             target="_blank"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
