@@ -82,9 +82,9 @@ export default function Navbar() {
   </div>
   
   {/* Optional: Keep the text name next to the logo or remove it */}
-  <span className="hidden sm:block text-xl font-serif font-bold tracking-tight text-[#00B0F0]">
+  {/* <span className="hidden sm:block text-xl font-serif font-bold tracking-tight text-[#00B0F0]">
     Sovereign<span className="text-white font-sans font-light">Grace</span>
-  </span>
+  </span> */}
 </motion.div>
             <span className="text-2xl font-serif font-bold tracking-tight text-[#00B0F0]">
               BelieversTribe<span className="text-white font-sans font-light">Church</span>
