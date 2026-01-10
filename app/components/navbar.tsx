@@ -73,7 +73,7 @@ export default function Navbar() {
   className="flex items-center gap-3 cursor-pointer"
   onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
 >
-  <div className="relative w-100 h-10 md:w-12 md:h-12">
+  <div className="relative w-10 h-10 md:w-12 md:h-12">
     <img
       src="/images/white-1.png" // Path to your logo in the public/images folder
       alt="Sovereign Grace Logo"
