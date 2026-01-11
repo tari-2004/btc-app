@@ -6,23 +6,23 @@ import Link from "next/link"; // Added Link import
 
 const PILLARS = [
   {
-    title: "Biblical Truth",
-    desc: "Uncompromising adherence to the Word of God as our final authority.",
+    title: "Vision",
+    desc: "Taking the message of Jesus and the character of his presence to every individual, cities, people groups around the world.",
     icon: <BookOpen className="text-[#00B0F0]" />,
     color: "#00B0F0"
   },
   {
-    title: "Radical Worship",
-    desc: "Creating an atmosphere where the Spirit moves and hearts are transformed.",
+    title: "Mission",
+    desc: "To teach, train and equip believers to do the work of the ministry in their world.",
     icon: <Flame className="text-[#FFC107]" />,
     color: "#FFC107"
   },
-  {
-    title: "Deep Community",
-    desc: "More than a weekend service—a family walking in Sovereign Grace.",
-    icon: <Users className="text-[#FF8F00]" />,
-    color: "#FF8F00"
-  }
+  // {
+  //   title: "Deep Community",
+  //   desc: "More than a weekend service—a family walking in Sovereign Grace.",
+  //   icon: <Users className="text-[#FF8F00]" />,
+  //   color: "#FF8F00"
+  // }
 ];
 
 export default function AboutUs() {
@@ -111,7 +111,7 @@ export default function AboutUs() {
         </div>
 
         {/* BOTTOM: Values Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {PILLARS.map((pillar, i) => (
             <motion.div
               key={i}

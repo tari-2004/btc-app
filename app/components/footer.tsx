@@ -15,10 +15,10 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded bg-[#00B0F0] flex items-center justify-center">
-                <span className="text-black font-black text-xl">Ω</span>
+                <span className="text-black font-black text-xl">B</span>
               </div>
               <span className="text-2xl font-serif font-bold text-[#00B0F0]">
-                Sovereign<span className="text-white font-sans font-light">Grace</span>
+                Believers Tribe <span className="text-white font-sans font-light">Church</span>
               </span>
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">
@@ -64,7 +64,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-4 text-white/40 text-sm">
                 <Mail size={18} className="text-[#00B0F0] shrink-0" />
-                <span>contact@sovereigngrace.com</span>
+                <span>believerstribechurch@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -95,7 +95,7 @@ export default function Footer() {
         {/* BOTTOM BAR */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-white/20 text-[10px] font-bold uppercase tracking-widest">
-            © 2026 Sovereign Grace Academy. All Rights Reserved.
+            © 2026 Believers Tribe Church. All Rights Reserved.
           </p>
           <motion.button 
             onClick={scrollToTop}

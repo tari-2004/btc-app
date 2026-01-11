@@ -20,7 +20,7 @@ export default function AboutPage() {
           animate={{ opacity: 1 }}
           className="text-[#00B0F0] font-black tracking-[0.5em] uppercase text-xs block mb-4"
         >
-          Our Sacred Journey
+          Our Sacred Journeyj
         </motion.span>
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
@@ -91,7 +91,7 @@ export default function AboutPage() {
               <div className="relative aspect-[3/4] overflow-hidden rounded-[1.5rem] border border-white/10 shadow-2xl">
                 <img 
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" 
+                  className="w-full h-full object-cover transition-all duration-700" 
                   alt="Lead Pastor" 
                 />
               </div>

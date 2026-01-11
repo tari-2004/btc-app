@@ -28,7 +28,7 @@ export default function Hero() {
       {/* Background Layer */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/people.jpg"
+          src="/images/over.jpeg"
           className="w-full h-full object-cover opacity-40 mix-blend-luminosity"
           alt="Church Sanctuary"
         />
