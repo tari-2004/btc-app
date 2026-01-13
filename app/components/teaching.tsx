@@ -5,7 +5,7 @@ import { Monitor, Users, Zap, Clock } from "lucide-react";
 
 const SERIES = [
   {
-    title: "The Midweek Encounter",
+    title: "Wordroom",
     schedule: "Every Wednesday • 6:30 PM",
     focus: "Deep Doctrine & Intercession",
     image: "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?q=80&w=2071&auto=format&fit=crop",
@@ -16,15 +16,15 @@ const SERIES = [
     title: "Sunday First Service",
     schedule: "Every Sunday • 8:00 AM",
     focus: "Prophetic Alignment & Worship",
-    image: "https://images.unsplash.com/photo-1529070532901-ba8c300ea244?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/believer.jpeg",
     icon: <Monitor size={20} className="text-[#00B0F0]" />,
     accent: "#00B0F0"
   },
   {
     title: "Sunday Second Service",
     schedule: "Every Sunday • 10:30 AM",
-    focus: "The Apostolic Masterclass",
-    image: "https://images.unsplash.com/photo-1471666875520-c75081f42081?q=80&w=2072&auto=format&fit=crop",
+    focus: "The Revelation of the Father",
+    image: "images/revelation.jpeg",
     icon: <Users size={20} className="text-[#E53935]" />,
     accent: "#E53935"
   }
@@ -68,7 +68,7 @@ export default function TeachingSeries() {
               {/* Image Layer */}
               <img 
                 src={item.image}
-                className="absolute inset-0 w-full h-full object-cover grayscale brightness-50 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700"
+                className="absolute inset-0 w-full h-full object-cover brightness-90 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700"
                 alt={item.title}
               />
               

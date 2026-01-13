@@ -83,14 +83,29 @@ export default function Hero() {
             </motion.button>
           </Link>
 
-          <motion.button
-            whileHover={{ scale: 1.02, borderColor: "#FFC107", color: "#FFC107" }}
-            whileTap={{ scale: 0.98 }}
-            className="w-full sm:w-auto px-10 py-5 border-2 border-[#00B0F0] text-[#00B0F0] font-bold rounded-xl flex items-center justify-center gap-3 transition-all tracking-widest text-xs"
-          >
-            <Play size={18} />
-            LATEST SERMON
-          </motion.button>
+          <motion.a
+  href="https://t.me/pstclintondukeh" // Replace with your actual Telegram link
+  target="_blank"
+  rel="noopener noreferrer"
+  whileHover={{ scale: 1.02, borderColor: "#FFC107", color: "#FFC107" }}
+  whileTap={{ scale: 0.98 }}
+  className="w-full sm:w-auto px-10 py-5 border-2 border-[#00B0F0] text-[#00B0F0] font-bold rounded-xl flex items-center justify-center gap-3 transition-all tracking-widest text-xs cursor-pointer"
+>
+  <svg 
+    viewBox="0 0 24 24" 
+    width="18" 
+    height="18" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2.5" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+  >
+    <line x1="22" y1="2" x2="11" y2="13"></line>
+    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+  </svg>
+  LATEST SERMON
+</motion.a>
         </motion.div>
       </motion.div>
 

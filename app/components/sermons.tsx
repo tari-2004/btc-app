@@ -35,7 +35,7 @@ export default function LatestSermon() {
               </span>
             </motion.div>
             <motion.h2 variants={itemVariants} className="text-4xl md:text-5xl font-serif font-bold text-white">
-              Latest <span className="italic text-[#FFC107]">Spiritual Intel</span>
+              Latest <span className="italic text-[#FFC107]">Sermons</span>
             </motion.h2>
           </motion.div>
           
@@ -89,13 +89,23 @@ export default function LatestSermon() {
                 </div>
               </div>
 
-              <motion.button 
-                whileHover={{ scale: 1.1 }}
+              <motion.a
+                href="https://facebook.com/yourpagename/videos/yourvideoid" // Replace with your specific Facebook video URL
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ 
+                  scale: 1.1, 
+                  shadow: "0px 0px 20px rgba(0, 176, 240, 0.6)" 
+                }}
                 whileTap={{ scale: 0.9 }}
-                className="w-16 h-16 md:w-28 md:h-28 rounded-full bg-[#00B0F0] flex-shrink-0 flex items-center justify-center text-black shadow-lg"
+                className="w-16 h-16 md:w-28 md:h-28 rounded-full bg-[#00B0F0] flex-shrink-0 flex items-center justify-center text-black shadow-lg cursor-pointer transition-shadow"
               >
-                <Play size={32} fill="currentColor" className="ml-1 md:ml-2 md:w-10 md:h-10" />
-              </motion.button>
+                <Play 
+                  size={32} 
+                  fill="currentColor" 
+                  className="ml-1 md:ml-2 w-8 h-8 md:w-10 md:h-10" 
+                />
+              </motion.a>
             </div>
           </div>
         </motion.div>

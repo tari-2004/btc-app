@@ -90,7 +90,7 @@ export default function AboutPage() {
               <div className="absolute -inset-4 border border-[#00B0F0]/20 rounded-[2rem] z-0" />
               <div className="relative aspect-[3/4] overflow-hidden rounded-[1.5rem] border border-white/10 shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
+                  src="images/pastor.png" 
                   className="w-full h-full object-cover transition-all duration-700" 
                   alt="Lead Pastor" 
                 />
@@ -108,7 +108,7 @@ export default function AboutPage() {
               >
                 Our Lead Shepherd
               </motion.span>
-              <h2 className="text-4xl md:text-6xl font-serif font-bold text-white mb-2">Dr. Elias Thorne</h2>
+              <h2 className="text-4xl md:text-6xl font-serif font-bold text-white mb-2">PST. Clinton Dukeh</h2>
               <p className="text-[#00B0F0] font-sans font-bold uppercase tracking-widest text-sm">Senior Pastor & Visionary</p>
             </div>
 

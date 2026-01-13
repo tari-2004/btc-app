@@ -33,11 +33,11 @@ export default function MembershipPage() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#00B0F0]/30 bg-[#00B0F0]/5 mb-6"
         >
           <CheckCircle2 size={14} className="text-[#00B0F0]" />
-          <span className="text-[#00B0F0] text-[10px] font-black uppercase tracking-[0.4em]">Become a Stakeholder</span>
+          <span className="text-[#00B0F0] text-[10px] font-black uppercase tracking-[0.4em]">Become a Member</span>
         </motion.div>
         
         <h1 className="text-5xl md:text-7xl font-serif font-bold mb-8 leading-tight">
-          Foundation <span className="text-[#00B0F0]">Class</span>
+          Membership <span className="text-[#00B0F0]">Class</span>
         </h1>
         <p className="text-white/50 text-xl font-light max-w-2xl mx-auto leading-relaxed">
           Move beyond the pews. Discover your purpose, understand our mandate, and officially join the Sovereign Grace family.

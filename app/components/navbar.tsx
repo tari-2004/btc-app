@@ -97,14 +97,28 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-4">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
+            <motion.a
+              href="https://facebook.com/yourpagename" // Replace with your actual Facebook page URL
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05, backgroundColor: "rgba(255, 193, 7, 0.1)" }}
               whileTap={{ scale: 0.95 }}
-              className="px-5 py-2 rounded-full border border-[#FFC107] text-[#FFC107] text-[10px] font-bold uppercase tracking-widest flex items-center gap-2"
+              className="px-5 py-2 rounded-full border border-[#FFC107] text-[#FFC107] text-[10px] font-bold uppercase tracking-widest flex items-center gap-2 cursor-pointer transition-colors"
             >
-              <PlayCircle size={14} /> Watch Live
-            </motion.button>
-
+              {/* <svg 
+                size={14} 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                className="w-3.5 h-3.5"
+              >
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg> */}
+              Watch Live
+            </motion.a>
             <Link href="/give">
               <motion.button
                 whileHover={{ scale: 1.05 }}

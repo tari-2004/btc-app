@@ -5,32 +5,32 @@ import { MapPin, Clock, ArrowRight, CalendarDays } from "lucide-react";
 
 const EVENTS = [
   {
-    day: "14",
-    month: "JAN",
-    title: "Apostolic Leaders Summit",
-    time: "09:00 AM - 02:00 PM",
-    location: "Main Sanctuary",
+    day: "21",
+    month: "FEB",
+    title: "Tech, its Future and the Believer",
+    time: "10:00 AM",
+    location: "Church Auditorium",
     category: "Special Event",
     image: "images/shift.jpeg" 
   },
-  {
-    day: "21",
-    month: "JAN",
-    title: "Night of Sovereign Worship",
-    time: "07:00 PM - Late",
-    location: "Plaza Arena",
-    category: "Community",
-    image: "images/shift.jpeg"
-  },
-  {
-    day: "28",
-    month: "JAN",
-    title: "Youth Tech & Faith Seminar",
-    time: "04:00 PM",
-    location: "Innovation Hub",
-    category: "Workshop",
-    image: "images/shift.jpeg"
-  }
+  // {
+  //   day: "21",
+  //   month: "JAN",
+  //   title: "Night of Sovereign Worship",
+  //   time: "07:00 PM - Late",
+  //   location: "Plaza Arena",
+  //   category: "Community",
+  //   image: "images/shift.jpeg"
+  // },
+  // {
+  //   day: "28",
+  //   month: "JAN",
+  //   title: "Youth Tech & Faith Seminar",
+  //   time: "04:00 PM",
+  //   location: "Innovation Hub",
+  //   category: "Workshop",
+  //   image: "images/shift.jpeg"
+  // }
 ];
 
 export default function UpcomingEvents() {
@@ -50,7 +50,7 @@ export default function UpcomingEvents() {
               <span className="text-[#00B0F0] font-sans text-[10px] font-black tracking-[0.4em] uppercase">Events</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-white leading-tight">
-              Upcoming <span className="text-[#E53935]">Gatherings</span>
+              Upcoming <span className="text-[#E53935]">Events</span>
             </h2>
           </motion.div>
 
