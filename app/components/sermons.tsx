@@ -95,7 +95,7 @@ export default function LatestSermon() {
                 rel="noopener noreferrer"
                 whileHover={{ 
                   scale: 1.1, 
-                  shadow: "0px 0px 20px rgba(0, 176, 240, 0.6)" 
+                  boxShadow: "0px 0px 20px rgba(0, 176, 240, 0.6)" 
                 }}
                 whileTap={{ scale: 0.9 }}
                 className="w-16 h-16 md:w-28 md:h-28 rounded-full bg-[#00B0F0] flex-shrink-0 flex items-center justify-center text-black shadow-lg cursor-pointer transition-shadow"
