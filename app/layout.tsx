@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sovereign Grace | A Sanctuary for Modern Souls",
+  title: "Believers Ttibe Church | A Sanctuary for Modern Souls",
   description: "Experience deep worship and apostolic teaching in an atmosphere designed for the next generation of believers.",
 };
 

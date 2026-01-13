@@ -28,7 +28,7 @@ export default function Hero() {
       {/* Background Layer */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/over.jpeg"
+          src="/images/bible.jpg"
           className="w-full h-full object-cover opacity-40 mix-blend-luminosity"
           alt="Church Sanctuary"
         />
@@ -44,17 +44,19 @@ export default function Hero() {
         {/* Modern Label */}
         <motion.div variants={itemVariants} className="flex justify-center mb-8">
           <span className="px-5 py-1.5 rounded-full border border-[#00B0F0]/40 bg-[#00B0F0]/10 text-[#FFC107] text-[10px] font-black uppercase tracking-[0.5em] backdrop-blur-md">
-            Established in Truth
+            Established on the Word
           </span>
         </motion.div>
 
         {/* Headline with Electric Cyan emphasis */}
         <motion.h1
           variants={itemVariants}
-          className="text-5xl md:text-8xl font-serif font-bold text-white leading-[1.1] mb-8"
+          className="text-4xl md:text-6xl font-serif font-bold text-white leading-tight mb-8"
         >
-          A Sanctuary for <br />
-          <span className="text-[#00B0F0] drop-shadow-[0_0_15px_rgba(0,176,240,0.3)]">Modern Souls</span>
+          Discover your Identity <br />
+          <span className="text-[#00B0F0] drop-shadow-[0_0_15px_rgba(0,176,240,0.3)]">
+            Walk in your Authority
+          </span>
         </motion.h1>
 
         {/* High-Contrast Subtitle */}
@@ -62,8 +64,8 @@ export default function Hero() {
           variants={itemVariants}
           className="max-w-2xl mx-auto text-lg md:text-xl text-white/70 font-sans font-light leading-relaxed mb-12"
         >
-          Experience deep worship and apostolic teaching in an atmosphere 
-          designed for the next generation of believers.
+          Experience the Fellowship, the Word, the Worship, the Miracles, the Testimonies,
+           the Love, the Moments and the Vibes.
         </motion.p>
 
         {/* Action Buttons */}

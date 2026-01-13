@@ -36,8 +36,8 @@ export default function AboutPage() {
       <section className="px-6 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 mb-32 items-center">
         <div className="relative aspect-square rounded-3xl overflow-hidden border border-white/10">
           <img 
-            src="https://images.unsplash.com/photo-1544427920-c49ccfb85579?q=80&w=1974&auto=format&fit=crop" 
-            className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
+            src="images/btclogo.jpg" 
+            className="w-full h-full object-cover hover:grayscale-0 transition-all duration-1000"
             alt="Foundation"
           />
         </div>
