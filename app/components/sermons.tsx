@@ -113,9 +113,9 @@ export default function LatestSermon() {
         {/* Recent Additions */}
         <div className="mt-8 md:mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
            {[
-             { title: "The Altar of Discipline", speaker: "Pastor Sarah J.", time: "42 min" },
-             { title: "Financial Redemption", speaker: "Dr. Elias Thorne", time: "55 min" },
-             { title: "The Silent Watchman", speaker: "Min. David R.", time: "38 min" }
+             { title: "The Altar of Discipline", speaker: "Pastor Clinton D.", time: "42 min" },
+             { title: "Financial Redemption", speaker: "Pastor Clinton D.", time: "55 min" },
+             { title: "The Silent Watchman", speaker: "Pastor Clinton D.", time: "38 min" }
            ].map((sermon, i) => (
              <motion.div 
                key={i}

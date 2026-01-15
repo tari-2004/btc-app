@@ -6,16 +6,16 @@ import { Monitor, Users, Zap, Clock } from "lucide-react";
 const SERIES = [
   {
     title: "Wordroom",
-    schedule: "Every Wednesday • 6:30 PM",
-    focus: "Deep Doctrine & Intercession",
-    image: "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?q=80&w=2071&auto=format&fit=crop",
+    schedule: "Every Wednesday • 5:00 PM",
+    focus: "People Of Prophecy",
+    image: "images/wordroom.jpeg",
     icon: <Zap size={20} className="text-[#FFC107]" />,
     accent: "#FFC107"
   },
   {
     title: "Sunday First Service",
     schedule: "Every Sunday • 8:00 AM",
-    focus: "Prophetic Alignment & Worship",
+    focus: "The Believers Ministry. Part 1",
     image: "/images/believer.jpeg",
     icon: <Monitor size={20} className="text-[#00B0F0]" />,
     accent: "#00B0F0"
