@@ -37,7 +37,7 @@ function LiveCountdownBox() {
     
     // Format: YYYYMMDDTHHMMSSZ (UTC time)
     // 08:00 UTC is 09:00 WAT (Nigeria Time)
-    const startTime = "20260118T073000Z"; 
+    const startTime = "20260118T063000Z"; 
     const endTime = "20260118T110000Z";
 
     const googleUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${startTime}/${endTime}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
